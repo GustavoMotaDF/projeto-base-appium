@@ -96,7 +96,7 @@ python -m http.server 8085 -d logs/  # ou outra porta
 
 ![](img-readme/image-3.png)
 
-### Verifique o consumo de recursos por container (baseado em um processador de 4 nucles)
+### Verifique o consumo de recursos por container (baseado em um processador de 4 nucleos)
 
 ![](img-readme/image-4.png)
 
