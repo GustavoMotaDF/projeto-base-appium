@@ -1,0 +1,18 @@
+devices:
+  - name: emulator_13.0
+    remote_url: http://localhost:4723
+    device_name: emulator_13.0
+    udid: emulator-5554
+    system_port: 8200
+
+  - name: emulator_12.0
+    remote_url: http://localhost:4725
+    device_name: emulator_12.0
+    udid: emulator-5554
+    system_port: 8201
+
+  - name: emulator_11.0
+    remote_url: http://localhost:4727
+    device_name: emulator_11.0
+    udid: emulator-5554
+    system_port: 8202

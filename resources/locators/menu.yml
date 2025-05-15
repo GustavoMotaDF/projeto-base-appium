@@ -1,0 +1,10 @@
+menu:
+  inferior:
+    android:
+      browse: //android.widget.TextView[@text="Browse"]
+      home: //android.widget.TextView[@text="Home"]
+      surpriseme: //android.view.View[@resource-id="BottomTab_SurpriseMe"]
+      mylibrary: //android.widget.TextView[@text="My Library"]
+      podcasts: //android.widget.TextView[@text="Podcasts"]
+
+

@@ -1,0 +1,5 @@
+oqueprocura:
+  btn_next: Next
+  android:
+    procuropor: //android.widget.TextView[@resource-id="Typography" and @text="{text}"]
+

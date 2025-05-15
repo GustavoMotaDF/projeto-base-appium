@@ -1,0 +1,4 @@
+interesses:
+  btn_next: Next
+  android:
+    lista_de_itens: //android.widget.TextView[@resource-id="Typography" and @text="{text}"]

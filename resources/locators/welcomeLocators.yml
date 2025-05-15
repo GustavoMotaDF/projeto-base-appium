@@ -1,0 +1,4 @@
+welcome:
+  btn_next: Next
+  android:
+    btn_cancel: android:id/button2

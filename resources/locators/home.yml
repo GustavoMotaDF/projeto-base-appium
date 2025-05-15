@@ -1,0 +1,7 @@
+home:
+  android:
+    titulo: //android.widget.TextView[@resource-id="Spotlight_Title"]
+    topico: //android.widget.TextView[@resource-id="Typography" and @text="Newest"]
+    myprofile: //android.widget.Button[@resource-id="MyProfilePageButton"]
+
+

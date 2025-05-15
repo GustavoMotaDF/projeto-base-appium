@@ -1,0 +1,53 @@
+services:
+  android_11:
+    image: budtmo/docker-android:emulator_13.0
+    container_name: emulator_13.0
+    privileged: true
+    restart: always
+    ports:
+      - "4723:4723"     # Appium
+      - "6080:6080"     # NoVNC (visual)
+      - "5554:5554"     # Emulator console
+      - "5555:5555"     # Emulator adb
+    environment:
+      - DEVICE=emulator_13.0
+      - APPIUM=true
+      - EMULATOR_ARGS=-no-window -no-audio -gpu off
+    volumes:
+      - /home/mota/Documentos/projetos/appium/resources/app:/apps
+      
+  android_10:
+    image: budtmo/docker-android:emulator_12.0
+    container_name: emulator_12.0
+    privileged: true
+    restart: always
+    ports:
+      - "4725:4723"
+      - "6081:6080"
+      - "5564:5554"
+      - "5565:5555"
+    environment:
+      - DEVICE=emulator_12.0
+      - APPIUM=true
+      - EMULATOR_ARGS=-no-window -no-audio -gpu off
+    volumes:
+      - /home/mota/Documentos/projetos/appium/resources/app:/apps
+
+  android_9:
+    image: budtmo/docker-android:emulator_11.0
+    container_name: emulator_11.0
+    privileged: true
+    restart: always
+    ports:
+      - "4727:4723"
+      - "6082:6080"
+      - "5574:5554"
+      - "5575:5555"
+    environment:
+      - DEVICE=emulator_11.0
+      - APPIUM=true
+      - EMULATOR_ARGS=-no-window -no-audio -gpu off
+    volumes:
+      - /home/mota/Documentos/projetos/appium/resources/app:/apps
+
+

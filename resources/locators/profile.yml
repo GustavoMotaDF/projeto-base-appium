@@ -1,0 +1,3 @@
+profile:
+  android:
+    titulo: //android.widget.TextView[@resource-id="Typography" and @text="My Profile"]
