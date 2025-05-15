@@ -57,7 +57,7 @@ appium
   "appium:automationName": "UIAutomator2"
 }
 ```
-![alt text](img-readme/image.png)
+![](img-readme/image.png)
 
 #### E por fim inicie a sessão.
 
@@ -86,17 +86,17 @@ python -m http.server 8085 -d logs/  # ou outra porta
 
 ### Navegue entre as pastas pela data
 
-![alt text](img-readme/image-1.png)
+![](img-readme/image-1.png)
 
 ### Navegue entre as pastas pelo horario
 
-![alt text](img-readme/image-2.png)
+![](img-readme/image-2.png)
 
 ### Verifique o resultado do teste, da mesma forma que veria pelo robot
 
-![alt text](img-readme/image-3.png)
+![](img-readme/image-3.png)
 
 ### Verifique o consumo de recursos por container (baseado em um processador de 4 nucles)
 
-![alt text](img-readme/image-4.png)
+![](img-readme/image-4.png)
 
